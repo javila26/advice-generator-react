@@ -1,0 +1,63 @@
+.card{
+    /* height: auto; */
+    width:  30rem;
+    background-color: #313a49;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
+}
+
+.card h1{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    margin: 2.5rem 0 0 0;
+}
+
+.card p{
+    color: hsl(193, 38%, 86%);
+    padding: 0 1rem 0 1rem;
+    font-size: 2rem;
+}
+
+.dice{
+    position: relative;
+    top: 2rem;
+    
+}
+
+.card button{
+    background-color: #52ffaa;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.divider{
+    content: url("../../images/pattern-divider-desktop.svg");   
+}
+
+.card button img{
+  
+    margin-top: 3px;
+    height: 1.6rem;
+}
+
+@media (min-width: 319px) and (max-width: 480px){ 
+    
+
+    .card{
+        width: 95%;
+        height: auto;
+    }
+
+    .divider{
+        content: url("../../images/pattern-divider-mobile.svg")
+    }
+
+}
