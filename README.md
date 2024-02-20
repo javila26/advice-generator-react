@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/javila26/advice-generator-react)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/advice-generator-using-fetch-react-api-JQ6tU4F5Gw)
 - Live Site URL: [Live Site URL](https://advice-generator-react-ecru.vercel.app/)
 
 ## My process
